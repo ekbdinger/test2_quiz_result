@@ -1,0 +1,11 @@
+name = test2_quiz_result
+description = Lists quiz results, can put in a Node ID in an exposed filter
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = test2_quiz_result
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = test2_quiz_results
+features_exclude[dependencies][ctools] = ctools

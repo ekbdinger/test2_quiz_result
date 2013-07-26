@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test2_quiz_result feature.
+ */
+
+include_once 'test2_quiz_result.features.inc';
